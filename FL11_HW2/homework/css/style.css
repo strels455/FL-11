@@ -135,15 +135,11 @@
  		body {
  			height: 0;
  			padding-top: 0px;
- 			font-weight: 100%;
  			max-width: 100%; 
  			font-size: 8.5px;
  		} 
 
  		@page { margin: 0; 
- 			page-break-inside: avoid;
- 			font-weight: 0;
-
  		}
 
  		.tm-content-box.tm-content-header.margin-b-10 {
@@ -170,7 +166,7 @@
 
  		.heading ol a:first-letter {
  			font-size: 1.6em;
- 			color: ##87cefa;
+ 			color: #87cefa;
  		}
 
  		.heading h2 {
