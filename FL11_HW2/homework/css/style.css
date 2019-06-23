@@ -56,58 +56,59 @@
  	padding-left: 6px;
  	text-decoration: none;}
 
- 	.heading ol a:hover {
+ .heading ol a:hover {
  		color: #FFA500;
  		border-left: 3px solid orange;
  		font-weight: bold;
  		padding-left: 3px;
- 	}
+ }
 
- 	.box {
+ .box {
  		padding: 10px;
- 	}
+ }
 
- 	.box p::first-letter {
+ .box p::first-letter {
  		font-size: 25px;
- 	}
+ }
 
- 	.box p {
+ .box p {
  		font-size: 15px;
  		color: #9299AD;
  		font-style: italic;
- 	}
+ }
 
- 	.gallery-container .box-work:nth-child(even) {
+ .gallery-container .box-work:nth-child(even) {
  		background-color: #f5f5f5;
- 	}
+ }
 
- 	.form-control {
+ .form-control {
  		border: 2px solid transparent;
  		border-bottom-color: skyblue;
  		border-radius: .25rem;
- 	}
+ }
 
- 	textarea.form-control {
+ textarea.form-control {
  		border-color: skyblue;
  		resize: none;
- 	}
+ }
 
- 	.form-control:focus {
+ .form-control:focus {
  		background-color: #76cdd7;
  		border: 2px solid #76cdd7;
  		color: #fff;
- 	}
- 	#contact_email {
+ }
+
+ #contact_email {
  		background: url("../img/email-icon.png") no-repeat right center;
  		background-size: 28px;
- 	}
+ }
 
- 	#contact_email:focus {
+ #contact_email:focus {
  		background: #76cdd7 url("../img/email-icon.png") no-repeat right center;
  		background-size: 28px;
- 	}
+ }
 
- 	.submit-btn {
+ .submit-btn {
  		color: #76cdd7;
  		background: #fff;
  		border: 2px solid #76cdd7;
@@ -115,14 +116,14 @@
  		border-radius: 0;
  		font-size: 1.5rem;
  		padding: 1rem 3.5rem;
- 	}
+ }
 
- 	.submit-btn:hover {
+ .submit-btn:hover {
  		background-color: #76cdd7;
  		border-color: #76cdd7;
- 	}
- 	@media print and (color) {
+ }
 
+ @media print and (color) {
  		.tm-banner {
  			padding: 0px
  		}
